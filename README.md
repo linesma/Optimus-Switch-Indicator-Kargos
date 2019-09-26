@@ -2,7 +2,7 @@
 Indicator for Optimus-Switch in KDE using the Kargos Widget
 
 
-![Optimus-Switch-Indicator-Argos-Manjaro](https://github.com/linesma/Optimus-Switch-Indicator-Argos-Manjaro/blob/master/screenshots/optimus-switcher-intel.jpg)     ![Optimus-Switch-Indicator-Argos-Manjaro](https://github.com/linesma/Optimus-Switch-Indicator-Argos-Manjaro/blob/master/screenshots/optimus-switcher-nvidia.jpg)
+![Optimus-Switch-Kargos-Manjaro](https://github.com/linesma/Optimus-Switch-Kargos-Manjaro/blob/master/screenshots/optimus-switcher-intel.png)
 
 This is a fork of argos-indicator-nvidia-prime by cyberalex4life located here: https://github.com/cyberalex4life/argos-indicator-nvidia-prime
 
