@@ -14,7 +14,7 @@ Thank you to the authors of all the programs used here.
 
 #### Requirements
 - [Kargos](https://github.com/lipido/kargos) Kargos Plasma Widget.
-- Optimus-Switch-SDDM located here: https://github.com/dglt1/optimus-switch-sddm
+- [Optimus-Switch-SDDM](https://github.com/dglt1/optimus-switch-sddm) - This is needed to be able to switch GPU's.
 - [pkroot](https://github.com/cyberalex4life/pkroot) - minimum already provided in this repository
 
 #### Installation
@@ -27,22 +27,21 @@ Create directory `~/.local/share/icons` if it does not exist:
 ! [ -d "~/.local/share/icons" ] && mkdir --parents ~/.local/share/icons || trueg
 ```
 
+Create directory `~/.config/kargos`:
+```
+! [ -d "~/.config/kargos" ] && mkdir --parents ~/.config/kargos || trueg
+```
+
 Then:
 ```
-git clone https://github.com/linesma/Optimus-Switch-Indicator-Argos-Manjaro.git
-cd Optimus-Switch-Indicator-Argos-Manjaro
+git clone https://github.com/linesma/Optimus-Switch-Kargos-Manjaro.git
+cd Optimus-Switch-Kargos-Manjaro
 
 # copy icons
 cp -v icons/* ~/.local/share/icons/
 
-# copy 'optimus-switcher.sh' to 'argos' folder
-cp -v optimus-switcher.sh ~/.config/argos/
-
-# backup the default Argos configuration
-cp ~/.config/argos/argos.sh ~/Documents
-
-# delete the default Argos configuration
-rm ~/.config/argos/argos.sh
+# copy 'optimus-switcher.sh' to 'kargos' folder
+cp -v optimus-switcher.sh ~/.config/kargos/
 
 # change the permissions of optimus-switcher.sh so Argos can read it
 sudo chmod +777 ~/.config/argos/optimus-switcher.sh
@@ -53,6 +52,22 @@ sudo cp org.freedesktop.policykit.pkexec.prime-select.policy /usr/share/polkit-1
 # copy pkroot to '/usr/local/bin' and make sure it is executable
 sudo cp pkroot /usr/local/bin
 sudo chmod a+x /usr/local/bin/pkroot
+
+# Add the Kargos widget to your desired location.
+
+# Right-Click on the Kargos widget and select "Configure kargos"
+
+# Goto the "Appearance" section. Change the values of the preferred width and height to 300px
+
+# In that same section, tick the box "Dropdown always visible"
+
+# Click "Apply"
+
+# Goto the "General" section. Copy the following into the "Command line or executable path" box>
+~/.config/kargos/optimus-switcher.sh
+
+# Click "Apply" and "Okay"
+
 ```
 #### Uninstall
 ```
@@ -62,11 +77,11 @@ rm ~/.local/share/icons-to-delete/{nvidia-active-symbolic.svg,nvidia-inactive-sy
 # remove policy
 sudo rm org.freedesktop.policykit.pkexec.prime-select.policy /usr/share/polkit-1/actions/
 
-# remove argos extension script
-rm ~/.config/argos/optimus-switcher.sh
+# remove kargos extension script
+rm ~/.config/kargos/optimus-switcher.sh
 
 # remove pkroot script
 sudo rm /usr/local/bin/pkroot
 
 ```
-Then uninstall Argos if you don't need it anymore.
+Then uninstall the Kargos widget if you don't need it anymore.
