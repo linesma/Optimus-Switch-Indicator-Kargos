@@ -63,7 +63,7 @@ sudo chmod a+x /usr/local/bin/pkroot
 
 # Click "Apply"
 
-# Goto the "General" section. Copy the following into the "Command line or executable path" box>
+# Goto the "General" section. Copy the following into the "Command line or executable path" box:
 ~/.config/kargos/optimus-switcher.sh
 
 # Click "Apply" and "Okay"
