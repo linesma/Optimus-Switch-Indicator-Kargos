@@ -8,7 +8,7 @@ This is a fork of argos-indicator-nvidia-prime by cyberalex4life located here: h
 
 It has been updated to switch between the nVidia and Intel graphics cards on Optimus laptops running KDE on Arch based distros by using the Optimus-Switch program by dglt1 located here: https://github.com/dglt1/optimus-switch-sddm
 
-This is a "port" of my Optimus-Switch-Indicator-Argos, located here: https://github.com/linesma/Optimus-Switch-Indicator-Argos to KDE using the Kargos widget. Kargos is a port of the Argos Extnsion for Gnome to KDE. This projest can be found here: https://github.com/lipido/kargos
+This is a "port" of my Optimus-Switch-Indicator-Argos, located here: https://github.com/linesma/Optimus-Switch-Indicator-Argos to KDE using the Kargos widget. Kargos is a port of the Argos Extnsion for Gnome to KDE. This project can be found here: https://github.com/lipido/kargos
 
 Thank you to the authors of all the programs used here.
 
