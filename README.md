@@ -1,8 +1,8 @@
-# Optimus-Switch-Kargos
+# Optimus-Switch-Indicator-Kargos
 Indicator for Optimus-Switch in KDE using the Kargos Widget
 
 
-![Optimus-Switch-Kargos](https://github.com/linesma/Optimus-Switch-Kargos/blob/master/screenshots/optimus-switcher-intel.png)
+![Optimus-Switch-Indicator-Kargos](https://github.com/linesma/Optimus-Switch-Indicator-Kargos/blob/master/screenshots/optimus-switcher-intel.png)
 
 This is a fork of argos-indicator-nvidia-prime by cyberalex4life located here: https://github.com/cyberalex4life/argos-indicator-nvidia-prime
 
@@ -34,8 +34,8 @@ Create directory `~/.config/kargos`:
 
 Then:
 ```
-git clone https://github.com/linesma/Optimus-Switch-Kargos-Manjaro.git
-cd Optimus-Switch-Kargos-Manjaro
+git clone https://github.com/linesma/Optimus-Switch-Indicator-Kargos.git
+cd Optimus-Switch-Indicator-Kargos
 
 # copy icons
 cp -v icons/* ~/.local/share/icons/
