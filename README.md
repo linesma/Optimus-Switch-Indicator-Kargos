@@ -1,4 +1,4 @@
-# Optimus-Switch-Kargos-Manjaro
+# Optimus-Switch-Kargos
 Indicator for Optimus-Switch in KDE using the Kargos Widget
 
 
